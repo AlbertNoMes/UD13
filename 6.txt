@@ -1,0 +1,4 @@
+CLIENTE (PK_cod_cliente)
+PEDIDO (PK_cod_pedido, fecha_pedido, FK_cod_cliente, FK_cod_producto, num_unidades)
+PRODUCTO (PK_cod_producto, cantidad, unidades, fecha_encargo)
+PROVEEDOR (PK_cod_proveedor)

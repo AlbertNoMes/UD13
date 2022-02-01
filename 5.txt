@@ -1,0 +1,7 @@
+FONDO (PK_titulo, PK_autor, cantidad)
+LIBRO (PK_signatura, disponible, FK_titulo, FK_autor)
+PRESTAMO (PK_n_prestamo, fecha_prest)
+PRESTAMO_S (FK_n_prestamo, tipo)
+PRESTAMO_E (FK_n_prestamo, tipo, fecha_devol)
+SOCIOS (PK_n_socio, nombre, apellidos, telefono, fecha_cad) 
+SANCION (PK_n_dias, FK_n_socios)

@@ -1,0 +1,2 @@
+ATLETA (PK_n_dorsal, nombre)
+DA_RELEVO (PK_id_relevo, FK_n_dorsal)

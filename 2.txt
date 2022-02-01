@@ -1,0 +1,6 @@
+ELEMENTO (PK_nombre_elem, peso_atomico, simbolo, n.atomico)
+COMPUESTO_POR (nombre_elem, nombre_comp, proporcion)
+COMPUESTO (PK_nombre_compuesto)
+GASEOSO (coef_expan, temp_lic, FK_nombre_compuesto, estado)
+LIQUIDO (densidad, temp_evap, FK_nombre_compuesto, estado)
+SOLIDO (color, olor, dureza, FK_nombre_compuesto, estado)

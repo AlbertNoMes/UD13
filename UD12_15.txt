@@ -1,0 +1,3 @@
+PLATO (PK_nombre, Descripción, Cantidad, Tipo)
+MENU (PK_fecha, Temperatura, Cantidad)
+MENU_PLATO (PK_Fecha, Nombre)

@@ -1,0 +1,3 @@
+PIEZA (PK_tipo, Precio, modelo, Descripción, tipoR)
+ALMACEN (PK_numero, Direccion, Descripción)
+ALMACENA (PK_IDestantería, FK_Tipo, FK_Número)

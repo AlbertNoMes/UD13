@@ -1,0 +1,5 @@
+SUCURSAL (PK_n_sucursal, ciudad, activo)
+CLIENTE (PK_DNI, Nombre, Apellidos, Direccion, Ciudad)
+CUENTA (PK_n_cuenta, Saldo)
+TRANSACCION (PK_n_transaccion, fecha, TipoOperacion, cantidad, N_cuenta)
+ABRIR (FK_n_sucursal, FK_DNI, FK_n_cuenta)

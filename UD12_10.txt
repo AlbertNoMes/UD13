@@ -1,0 +1,4 @@
+JUGADOR (PK_id_jugador, nombre)
+EQUIPO (PK_id_equipo, nombre, estadio, id_jugador)
+JORNADA (PK_id_jornada, número, fecha, FK_id_equipo, FK_id_jugador)
+JUEGA (FK_id_jugador, FK_id_equipo, FK_id_jornada, resultado)
